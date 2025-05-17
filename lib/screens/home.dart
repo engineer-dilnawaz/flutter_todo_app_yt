@@ -182,7 +182,7 @@ class _HomeScreenState extends State<HomeScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Icon(Icons.menu, color: tdBlack, size: 30.0),
-          Container(
+          SizedBox(
             height: 40.0,
             width: 40.0,
             child: ClipRRect(
